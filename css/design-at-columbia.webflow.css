@@ -1,3 +1,15 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
 .heading {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -19,7 +31,7 @@
 
 .heading-2 {
   max-width: 400px;
-  margin-top: 60px;
+  margin-top: 35%;
   color: #fff;
   font-weight: 700;
 }
@@ -69,8 +81,9 @@
 .image {
   position: static;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   margin-top: 60px;
+  float: right;
 }
 
 .button {
@@ -88,6 +101,36 @@
 
 .container-2 {
   position: relative;
+}
+
+.container-4 {
+  margin-top: 40px;
+}
+
+.div-block {
+  padding: 10px 20px;
+  border-radius: 0px;
+  background-color: #fff;
+  color: #312eff;
+}
+
+.grid {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.heading-3 {
+  margin-top: 40px;
+}
+
+.heading-4 {
+  margin-top: 100px;
+  padding-right: 200px;
+}
+
+.div-block-2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 991px) {
