@@ -255,9 +255,7 @@ nav ul li a{
 	grid-template-areas:
 	"impact1 impact1 impact1 stat1 stat2 stat3" ;
 }
-.gi{
 
-}
 .gi1{
 	grid-area: impact1;
 
@@ -505,6 +503,8 @@ nav ul li a{
 	 text-align: center;
 	 color:var(--darkBlue);
 	 margin-top: 3%;
+	 margin-left: 20%;
+	 margin-right:20%;
 	 margin-bottom: 1%;
  }
  /*design process end*/
@@ -773,7 +773,10 @@ nav ul li a{
 	padding-top: 2%;
 	
 }
-
+.jmap{
+	margin-left: 10%;
+	margin-right: 10%;
+}
 .pimage{
 	background-color: var(--lightBlue);
 	margin: 4%;
@@ -789,6 +792,7 @@ nav ul li a{
 
 .founders-subheader{
 	grid-area: founders;
+	text-align: center;
 }
 .sh{
 	font-size: 20px;
