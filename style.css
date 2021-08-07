@@ -709,7 +709,8 @@ nav ul li a{
 		"advisor10"
 		"advisor11"
 		"advisor12"
-		"advisor13";
+		"advisor13"
+		"advisor14";
 		color: var(--darkBlue);
 	}
 	
@@ -738,7 +739,7 @@ nav ul li a{
 		"advisor4 advisor5 advisor6"
 		"advisor7 advisor8 advisor9"
 		"advisor10 advisor11 advisor12"
-		"advisor13 afiller afiller";
+		"advisor13 advisor14 afiller";
 		color: var(--darkBlue);
 	}
 }
@@ -763,7 +764,7 @@ nav ul li a{
 	"advisor1 advisor2 advisor3 advisor4"
 	"advisor5 advisor6 advisor7 advisor8"
 	"advisor9 advisor10 advisor11 advisor12"
-	"advisor13 afiller afiller afiller";
+	"advisor13 advisor14 afiller afiller";
 	color: var(--darkBlue);
 }
 }
@@ -982,6 +983,9 @@ nav ul li a{
 }
 .advisor13{
 	grid-area: advisor13;
+}
+.advisor14{
+	grid-area: advisor14;
 }
 .afiller{
 	grid-area: afiller;
